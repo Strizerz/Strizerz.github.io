@@ -1,9 +1,33 @@
+/*This is a basic CSS File. Each HTML tag can be added to this file and given a style as shown.*/
 body {
-    background-color: #149aab;
-}
-h1 {
-    color: blue;
-}
-p {
-    color: red;
-}
+    /*background-color can change the background color. 
+    For colors, your particular online code editor might give you 
+    a color picker window for easy changing.*/
+    background-color: #1d295d;
+  }
+  
+  h1 {
+    color: rgb(237, 172, 50);
+    text-align: center;
+  }
+  
+  /*Classes can allow multiple elements to be specified in a different way than by type
+  with a .something. Notice the class definitions on the paragraphs in the HTML file.*/
+  p.top{
+    color: rgb(223, 15, 15);
+  }
+  p.bottom{
+    color: rgb(196, 192, 192);
+  }
+  
+  /*IDs can only be used by a single element, not even multiples of one type. Again, 
+  this is defined in the HTML file on the span element.*/
+  #cool{
+    color: rgb(136, 136, 246);
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  pre{
+    color: white;
+  }

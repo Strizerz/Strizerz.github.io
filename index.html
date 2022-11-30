@@ -1,27 +1,39 @@
 <!DOCTYPE html>
+<!--HTML is a webpage coding language based on opening and closing tags notated by corner brackets. 
+	Comments will guide you on where to edit text. If you want to change
+	colors, sizes, fonts, and other styles, please look at the stylesheet.css file.-->
 <html>
-<head>
-	   <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
-<>
-<h1 style="text-align:center;">___'s Page</h1>
-<hr>
-<!-- Put text into the paragraph. HTML and code does not exactly read spaces
-and lines all to well. So you have to use some extra stuff to format it. -->
-<p>My first paragraph. <!-- when look at 
-webpage, not giant space there--> 
-My senconmnd <!-- put an extra line from the last bit of text code. no line 
-space --> 
-<br> This make a line space.
-<pre> <!-- Using pre does make it preserve spaces and lines -->
-	You may talk about your Guards boys
-	Your Lancers and Hussars boys
-	Your Fusiliers and Royal Artillery
-	The girls we drive them crazy, the foe we beat them aeasy
-	The Rangers from old Connaught yaarrrgh~       the land across the sea!
-</pre>
-</p>
-
-</body>
+	<!--The head tag stores information that isn't displayed but is necessary to make the page work-->
+	<head>
+		<!--The line below shouldn't be changed, it's necessary to link your style document into your HTML-->
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<!--The body tags contain all of the actual content of the page. 
+	You can edit any of the HTML within them to display new content. 
+	Start by -->
+	<body>
+		<!-- <h1>, <h2>, <h3>, <h4>, and so on can indicate progressively smaller headings on the page.
+		The higher the number, the smaller the heading.-->
+		<h1>___'s Page</h1>
+		<!--This adds a horizontal line--><hr>
+		<!-- <p> tags add paragraphs of text to the page. Within paragraphs, 
+		<br/> can be used to add a line break (go to the next line.) 
+		"&nbsp;" can also be used to add extra spaces-->
+		<p class="top">
+			First line of Text. <br/>
+			Second line of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text. <br/><br/>
+			Third Line. Woah, a gap!?
+			
+		</p>
+		<p class="bottom">
+			Here's Another <!--A span allows a small chunk of text to be styled independently.--><span id="cool">COOOOOL</span> Paragraph.
+			<pre> <!-- Using pre makes the webpage preserve your spacing and line breaks as written in the code. -->
+				You may talk about your Guards boys
+				Your Lancers and Hussars boys
+				Your Fusiliers and Royal Artillery
+				The girls we drive them crazy, the foe we beat them aeasy
+				The Rangers from old Connaught yaarrrgh~       the land across the sea!
+			</pre>
+		</p>
+	</body>
 </html>
